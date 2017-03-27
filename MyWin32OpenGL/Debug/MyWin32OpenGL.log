@@ -1,0 +1,19 @@
+﻿Build started 2017/3/27 14:44:05.
+     1>Project "D:\programming\openGL_proj\MyWin32OpenGL\MyWin32OpenGL\MyWin32OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\MyWin32OpenGL.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MyWin32OpenGL.cpp
+         MyWin32OpenGL.cpp
+     1>d:\programming\opengl_proj\mywin32opengl\mywin32opengl\resource.h(17): warning C4005: 'IDCANCEL': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565): note: see previous definition of 'IDCANCEL'
+     1>d:\programming\opengl_proj\mywin32opengl\mywin32opengl\mywin32opengl.cpp(184): warning C4101: 'ch1': unreferenced local variable
+     1>d:\programming\opengl_proj\mywin32opengl\mywin32opengl\mywin32opengl.cpp(185): warning C4101: 'r': unreferenced local variable
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\programming\openGL_proj\MyWin32OpenGL\Debug\MyWin32OpenGL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\programming\openGL_proj\MyWin32OpenGL\Debug\MyWin32OpenGL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\programming\openGL_proj\MyWin32OpenGL\Debug\MyWin32OpenGL.lib" /MACHINE:X86 Debug\MyWin32OpenGL.res
+         Debug\MyWin32OpenGL.obj
+         Debug\stdafx.obj
+         MyWin32OpenGL.vcxproj -> D:\programming\openGL_proj\MyWin32OpenGL\Debug\MyWin32OpenGL.exe
+     1>Done Building Project "D:\programming\openGL_proj\MyWin32OpenGL\MyWin32OpenGL\MyWin32OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54
